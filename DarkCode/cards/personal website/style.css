@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: rgb(12,4,43);
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    color: white;
+}
+
+.card-container{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgba(0, 0, 0, 0.527);
+    position: absolute;
+    width: 450px;
+    border-radius: 3px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px ;
+}
+
+.card-box .center{
+    text-align: center;
+}
+
+.card-box img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.card-box .web-font h1{
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.card-box .profile-description .profission{
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+}
