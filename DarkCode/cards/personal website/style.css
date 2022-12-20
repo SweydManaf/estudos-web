@@ -3,7 +3,7 @@ body{
     padding: 0;
     box-sizing: border-box;
     background: rgb(12,4,43);
-    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    /* background: url('wp6360722-4k-desktop-neon-wallpapers.jpg') center center/cover; */
     color: white;
 }
 
