@@ -12,13 +12,42 @@
         <div class="titulo">
             <h2>Criar Uma Conta</h2>
         </div>
-        <form action="" id="formulario">
-            <label for="name">Nome do usuário</label><input type="text" placeholder="Digite seu nome de usuário...">
-            <label for="email">Email</label><input type="email" placeholder="Digite seu email...">
-            <label for="senha">Senha</label><input type="password" placeholder="Digite sua senha...">
-            <label for="ver-senha">Confirmação de senha</label><input type="password" placeholder="Digite novamente sua senha...">
-            <input class="submit" type="submit" value="Enviar">
+        <form action="" id="form" class="form" >
+            <div class="form-control">
+                <label for="username">Nome de usuário</label>
+                <input type="text" id="username" placeholder="Digite seu nome de usuário...">
+                <i class="fas da-exclamation-circle"></i>
+                <i class="fas fa-check-circle"></i>
+                <small>Mensagem de erro</small>
+            </div>
+
+            <div class="form-control">
+                <label for="email">Email</label>
+                <input type="text" id="email" placeholder="Digite seu email...">
+                <i class="fas da-exclamation-circle"></i>
+                <i class="fas fa-check-circle"></i>
+                <small>Mensagem de erro</small>
+            </div>
+
+            <div class="form-control">
+                <label for="password">Confirmação de senha</label>
+                <input type="text" id="password" placeholder="Digite sua senha...">
+                <i class="fas da-exclamation-circle"></i>
+                <i class="fas fa-check-circle"></i>
+                <small>Mensagem de erro</small>
+            </div>
+
+            <div class="form-control">
+                <label for="password-confirmation">Senha</label>
+                <input type="text" id="password-confirmation" placeholder="Digite sua senha novamente...">
+                <i class="fas da-exclamation-circle"></i>
+                <i class="fas fa-check-circle"></i>
+                <small>Mensagem de erro</small>
+            </div>
+
+            <button type="submit">Enviar</button>
         </form>
     </main>
+    <script src="https://kit.fontawesome.com/a64be5ca6c.js" crossorigin="anonymous"></script>
 </body>
 </html>
